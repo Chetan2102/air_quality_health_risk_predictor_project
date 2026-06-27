@@ -216,5 +216,5 @@ st.write("""
 **Model Serialization:** Pickle
 """)
 
-st.caption("Developed as an End-to-End Machine Learning Project.")
+st.caption("Developed by Chetan Rathaur as an End-to-End Machine Learning Project.")
 
