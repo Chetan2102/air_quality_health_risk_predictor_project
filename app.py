@@ -8,8 +8,7 @@ import pickle
 # ----------------------------------------------------
 
 st.set_page_config(
-    page_title="Air Quality Health Risk Predictor",
-    page_icon="🌍",
+    page_title="Air Quality Health Risk Predictor",,
     layout="wide"
 )
 
@@ -57,7 +56,7 @@ with open("feature_names.pkl", "rb") as file:
 # Title
 # ----------------------------------------------------
 
-st.title("🌍 Air Quality Health Risk Predictor")
+st.title("Air Quality Health Risk Predictor")
 
 st.write("""
 Predict the health impact level based on air quality and
@@ -102,21 +101,24 @@ WindSpeed = st.sidebar.number_input(
 
 RespiratoryCases = st.sidebar.number_input(
     "Respiratory Cases",
-    min_value=0.0,
-    value=10.0
+    min_value=0,
+    value=10,
+    step=1
 )
 
 CardiovascularCases = st.sidebar.number_input(
     "Cardiovascular Cases",
-    min_value=0.0,
-    value=5.0
+    min_value=0,
+    value=5,
+    step=1
 )
 
 HospitalAdmissions = st.sidebar.number_input(
     "Hospital Admissions",
-    min_value=0.0,
-    value=8.0
-)
+    min_value=0,
+    value=8,
+    step=1
+))
 
 # ----------------------------------------------------
 # Create Input DataFrame
