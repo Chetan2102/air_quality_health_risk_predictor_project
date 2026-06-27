@@ -8,7 +8,7 @@ import pickle
 # ----------------------------------------------------
 
 st.set_page_config(
-    page_title="Air Quality Health Risk Predictor",,
+    page_title="Air Quality Health Risk Predictor",
     layout="wide"
 )
 
