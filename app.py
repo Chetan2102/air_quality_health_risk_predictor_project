@@ -118,7 +118,7 @@ HospitalAdmissions = st.sidebar.number_input(
     min_value=0,
     value=8,
     step=1
-))
+)
 
 # ----------------------------------------------------
 # Create Input DataFrame
